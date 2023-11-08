@@ -1,0 +1,30 @@
+{
+  "name": "cphone_back",
+  "version": "1.0.0",
+  "description": "backend de l'application web camerphone",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JalilGafar/cphoneback.git"
+  },
+  "keywords": [
+    "camerphone",
+    "smartphone",
+    "e-commerce",
+    "phone"
+  ],
+  "author": "Fonda Jalil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JalilGafar/cphoneback/issues"
+  },
+  "homepage": "https://github.com/JalilGafar/cphoneback#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  }
+}
