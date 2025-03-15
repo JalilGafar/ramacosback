@@ -3,8 +3,8 @@ var mysql = require('mysql');
 const con = mysql.createConnection({
     host: "localhost",
     user: "root",
-    password: "Orange2023@BROWN",
-    database: 'camerphonedb',
+    password: "NjNgNdFoNjMaNj7",
+    database: 'ramadb',
     multipleStatements: true
 });
   
@@ -15,7 +15,7 @@ con.connect(function(err) {
         res.sendStatus(500);
         return;
     }
-    console.log('Camerphone Database is connected successfully !');
+    console.log('Ramacos Database is connected successfully !');
 });
 
 module.exports = con;
