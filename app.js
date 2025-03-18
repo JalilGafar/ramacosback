@@ -32,6 +32,20 @@ app.get("/api/products", (req, res, next) => {
     )
 } )
 
+app.get("/api/types", (req, res, next) => {
+    con.query("SELECT type FROM produits group by (type);",
+        function (err, result, fields) {
+            if (err) {
+                console.log(err);
+                res.sendStatus(500);
+                return;
+            };
+            res.status(200).json(result);
+            return;
+        }
+    )
+} )
+
 
 
 // app.use("/api/phone", (req, res, next) => {
